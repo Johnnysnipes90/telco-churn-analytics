@@ -19,6 +19,37 @@ In this project, we apply **Logistic Regression**, **Decision Tree**, and **Rand
 
 ---
 
+## Dataset Description
+```
+Below is a summary of the main features in the cleaned Telco churn dataset:
+
+| Feature              | Type         | Description                                                |
+|----------------------|--------------|------------------------------------------------------------|
+| customerID           | Object (ID)  | Unique customer identifier (dropped before modeling).      |
+| gender               | Categorical  | Customer gender (`Male`/`Female`).                         |
+| SeniorCitizen        | Integer      | 1 if customer is a senior citizen, else 0.                 |
+| Partner              | Categorical  | Whether the customer has a partner (`Yes`/`No`).           |
+| Dependents           | Categorical  | Whether the customer has dependents (`Yes`/`No`).          |
+| tenure               | Numeric      | Number of months the customer has stayed.                  |
+| PhoneService         | Categorical  | Whether the customer has phone service.                    |
+| MultipleLines        | Categorical  | Multiple phone lines (`Yes`, `No`, or `No phone service`). |
+| InternetService      | Categorical  | Type of internet service (`DSL`, `Fiber optic`, `No`).     |
+| OnlineSecurity       | Categorical  | Online security add-on (`Yes`, `No`, `No internet service`).|
+| OnlineBackup         | Categorical  | Online backup add-on.                                      |
+| DeviceProtection     | Categorical  | Device protection add-on.                                  |
+| TechSupport          | Categorical  | Technical support add-on.                                  |
+| StreamingTV          | Categorical  | Streaming TV add-on.                                       |
+| StreamingMovies      | Categorical  | Streaming movies add-on.                                   |
+| Contract             | Categorical  | Contract type (`Month-to-month`, `One year`, `Two year`).  |
+| PaperlessBilling     | Categorical  | Whether the customer uses paperless billing.               |
+| PaymentMethod        | Categorical  | Payment method (`Electronic check`, `Mailed check`, etc.). |
+| MonthlyCharges       | Numeric      | Monthly billing amount in USD.                             |
+| TotalCharges         | Numeric      | Total amount charged during tenure in USD.                 |
+| Churn                | Binary       | Target variable: whether the customer churned (`Yes`/`No`).|
+
+**Dataset size**: 7,032 rows × 20 features after cleaning (customerID dropped).
+```
+
 ## 📂 Project Structure
 
 ```telco-churn-analytics/
