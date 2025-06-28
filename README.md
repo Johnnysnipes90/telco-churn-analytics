@@ -17,4 +17,4 @@ Predict customer churn in telecom using machine learning. This project identifie
 ├── requirements.txt # Python dependencies
 ├── .gitignore # Ignored files/folders
 ├── LICENSE # License (MIT recommended)
-└── README.md # This file`
+└── README.md # This file
