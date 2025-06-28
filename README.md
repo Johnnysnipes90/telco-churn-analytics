@@ -2,7 +2,20 @@
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/yourusername/telco-churn-analytics/HEAD)
 
-Predict customer churn in telecom using machine learning. This project identifies key drivers of churn and provides actionable insights for marketing teams to improve customer retention.
+Predict customer churn in telecom using machine learning. This project analyzes key churn drivers, visualizes insights, and builds actionable strategies to help marketing teams improve customer retention.
+
+## 📌 Project Overview
+
+In this project, we apply **Logistic Regression**, **Decision Tree**, and **Random Forest** models to predict churn in a telecom dataset. We focus on:
+
+- Data cleaning and preprocessing
+- Exploratory data analysis (EDA)
+- Model training and evaluation
+- Cross-validation for stability
+- Hyperparameter tuning
+- Model interpretability (coefficients, odds ratios, logistics regression visualization)
+- Insights for marketing strategies
+
 
 ---
 
@@ -33,7 +46,7 @@ cd telco-churn-analytics
 2️⃣ **Create virtual environment with uv**
 ```bash
 uv venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
+venv\Scripts\activate
 ```
 
 3️⃣ **Install dependencies**
@@ -56,11 +69,16 @@ jupyter notebook notebooks/01_telco_churn_analysis.ipynb
 📃 Contract type → two-year contracts significantly lower churn
 
 🔎 Key Insights
-Customers on month-to-month contracts with fiber optic services have the highest churn risk.
+- Top churn drivers:
+InternetService_Fiber optic, MonthlyCharges, Contract_Two year, tenure
 
-Proactive retention strategies targeting these segments can reduce churn.
+- Best model: Tuned Logistic Regression (balanced performance + interpretability)
+- ** Insights for Marketing **
+Customers with Fiber optic internet and month-to-month contracts are at higher churn risk.
 
-Marketing campaigns encouraging customers to switch to longer-term contracts can improve retention.
+Customers with two-year contracts or long tenure are less likely to churn.
+
+Promote longer contracts and service bundles to improve retention.
 
 💻 Technologies Used
 Python (pandas, numpy, scikit-learn, seaborn, matplotlib)
