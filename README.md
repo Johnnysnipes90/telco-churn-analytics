@@ -70,34 +70,36 @@ jupyter notebook notebooks/01_telco_churn_analysis.ipynb
 
 🔎 Key Insights
 - Top churn drivers:
+
 InternetService_Fiber optic, MonthlyCharges, Contract_Two year, tenure
 
 - Best model: Tuned Logistic Regression (balanced performance + interpretability)
-- ** Insights for Marketing **
+  
+- **Insights for Marketing**
 Customers with Fiber optic internet and month-to-month contracts are at higher churn risk.
 
 Customers with two-year contracts or long tenure are less likely to churn.
 
 Promote longer contracts and service bundles to improve retention.
 
-💻 Technologies Used
-Python (pandas, numpy, scikit-learn, seaborn, matplotlib)
+## 💻 Technologies Used
+```Python (pandas, numpy, scikit-learn, seaborn, matplotlib)
 
 Jupyter Notebook
 
 uv (fast Python package management)
 
 Git & GitHub
-
-📝 License
+```
+## 📝 License
 This project is licensed under the MIT License. See LICENSE for details.
 
-🙌 Acknowledgements
+## 🙌 Acknowledgements
 Dataset inspired by IBM Telco Customer Churn sample dataset.
 
 Thanks to the open-source community for tools that make this work possible!
 
-🤝 Contributing
+## 🤝 Contributing
 Pull requests are welcome! If you’d like to add features, improve documentation, or extend the analysis:
 
 Fork the repo
