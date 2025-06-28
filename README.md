@@ -8,7 +8,7 @@ Predict customer churn in telecom using machine learning. This project identifie
 
 ## 📂 Project Structure
 
-`telco-churn-analytics/
+```telco-churn-analytics/
 ├── data/ # Dataset (e.g., telco.csv)
 ├── notebooks/ # Jupyter notebooks for EDA & modeling
 ├── src/ # (Optional) scripts for modular code
@@ -18,3 +18,15 @@ Predict customer churn in telecom using machine learning. This project identifie
 ├── .gitignore # Ignored files/folders
 ├── LICENSE # License (MIT recommended)
 └── README.md # This file
+
+
+---
+
+## 🚀 Quick Start
+
+1️⃣ **Clone this repo**  
+```bash
+git clone https://github.com/yourusername/telco-churn-analytics.git
+cd telco-churn-analytics
+
+2️⃣ **Create virtual environment with uv**
