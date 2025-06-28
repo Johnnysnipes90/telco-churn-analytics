@@ -19,7 +19,7 @@ Predict customer churn in telecom using machine learning. This project identifie
 ├── LICENSE # License (MIT recommended)
 └── README.md # This file
 
-
+```
 ---
 
 ## 🚀 Quick Start
