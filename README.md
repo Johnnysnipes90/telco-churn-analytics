@@ -102,7 +102,6 @@ Thanks to the open-source community for tools that make this work possible!
 ## 🤝 Contributing
 Pull requests are welcome! If you’d like to add features, improve documentation, or extend the analysis:
 
-Fork the repo
 
 Create a new branch (git checkout -b feature/my-feature)
 
@@ -113,4 +112,4 @@ Push to the branch (git push origin feature/my-feature)
 Open a Pull Request
 
 📬 Contact
-Have questions? Feel free to open an issue or reach out via [your-email@example.com].
+Have questions? Feel free to open an issue or reach out via johnolalemi90@gmail.com.
